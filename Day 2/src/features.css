@@ -1,0 +1,64 @@
+.features-page {
+    padding: 20px;
+    position: relative; /* Ensure the button is positioned relative to this container */
+  }
+  
+  .features-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 90%;
+  }
+  
+  .feature-image {
+    width: 250px;
+    height: 250px;
+    margin-right: 30px;
+  }
+  
+  .feature-description {
+    max-width: 600px;
+  }
+  
+  .feature-description h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .feature-description p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .back-button {
+    position: absolute; /* Position the button in the top-left corner */
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff; /* Background color for the button */
+    color: rgb(21, 1, 1); /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+
+  .bg{
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/543159079/display_1500/stock-photo-grey-gradient-abstract-studio-background-543159079.jpg');
+  }
+  
