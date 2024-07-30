@@ -1,0 +1,39 @@
+.item-groups-manager {
+  padding: 20px;
+  margin-left: 250px; /* Adjust this to match the width of your sidebar */
+  margin-top: 40px;
+}
+
+.item-groups-manager h1 {
+  margin-bottom: 20px;
+}
+
+.item-groups-manager ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-groups-manager li {
+  margin-bottom: 10px;
+}
+
+.group-name {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.group-name:hover {
+  background-color: #e0e0e0;
+}
+
+.group-items {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid #ddd;
+}
+
+.group-items li {
+  padding: 5px 0;
+}

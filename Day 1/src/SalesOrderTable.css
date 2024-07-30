@@ -1,0 +1,32 @@
+/* SalesOrderTable.css */
+.sales-order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sales-order-table th, .sales-order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.sales-order-table th {
+  background-color: #499574;
+  text-align: left;
+}
+
+.sales-order-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sales-order-table tr:hover {
+  background-color: #ddd;
+}
+
+.custom-purchase-button {
+  background-color: #481111 !important; /* Red color */
+  color: rgb(183, 4, 4) !important;
+}
+
+.custom-purchase-button:hover {
+  background-color: #b71c1c !important; /* Darker red for hover */
+}

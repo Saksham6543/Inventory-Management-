@@ -1,0 +1,18 @@
+/* CartPage.css */
+
+/* Ensure the container takes up full height and adjusts with flex properties */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* height: 500vh; */
+    margin-top: 50%;
+  }
+
+  
+.carts th {
+    background-color: #499574;
+    text-align: left;
+  }
+  
+  /* Adjust margin or padding if needed */
+  
