@@ -1,0 +1,13 @@
+.navbar {
+    background: #1976d2;
+  }
+  
+  .navbar .MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar .MuiButton-root {
+    color: #fff;
+  }
+  
